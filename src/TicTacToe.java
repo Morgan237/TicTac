@@ -27,7 +27,6 @@ public class TicTacToe extends JFrame implements ActionListener{
 		textLabel.setOpaque(true);
 		
 		titlePanel.setLayout(new BorderLayout());
-//		titlePanel.setBounds(0,0,700,75);
 		titlePanel.add(textLabel);
 		
 		buttonPanel.setLayout(new GridLayout(3,3));
@@ -44,7 +43,6 @@ public class TicTacToe extends JFrame implements ActionListener{
 		
 		
 		this.add(buttonPanel);
-//		this.add(BorderLayout.NORTH,titlePanel);
 		this.add(titlePanel,BorderLayout.NORTH);
 		this.setVisible(true);
 		
